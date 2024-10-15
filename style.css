@@ -1,0 +1,119 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    background:url(img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    font-family: sans-serif;
+   
+}
+
+.backclr{
+    width: 100%;
+    height: 600px;
+    
+    background: linear-gradient(140deg,rgb(227, 6, 113),rgb(75, 10, 227),rgb(75, 10, 227));
+    opacity: 0.7;
+    z-index: 1;
+    position: relative;
+    top: -600px;
+    
+}
+.event{
+    display: inline;
+    font-weight: bold;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 70px;
+    position: relative;
+    left: 200px;
+    color: white;
+    z-index: 2;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+}
+.main{
+    position: relative;
+    left:100px;
+    z-index: 2;
+}
+.lgn{
+   padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.icon{
+    font-size: 21px;
+    padding-right: 8px;
+    color: white;
+}
+.main span{
+    color: white;
+}
+
+.speakers img{
+    width: 500px;
+    height: 400px;
+    
+} 
+.titre{
+    width: 360px;
+    height: auto;
+    color: black;
+    z-index: 2;
+   position: relative;
+   color: white;
+   padding-top: 50px;
+   right: 130px;
+   
+}
+.titre h1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.titre p{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 38px 0 20px;
+}
+.titre button{
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+}
+.get{
+    background-color: #F5167E;
+    border: none  !important;
+}
+.learn{
+   background-color: transparent;
+   margin-left: 20px;
+}
+.photo{
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    justify-content: space-around;
+    z-index: 2;
+    position: relative;
+    bottom: 1100px;
+    left: -18px;
+}
