@@ -2,6 +2,11 @@
    margin: 0;
    padding: 0; 
    box-sizing: border-box;
+  
+}
+body{
+    width: 100%;
+    height: auto;
 }
 .header{
     width: 100%;
@@ -120,7 +125,7 @@
 .main1{
     width: 80%;
     height: 100px;
-    border: 1px solid black;
+  
     border-radius: 15px;
     margin: auto;
     display: flex;
@@ -153,3 +158,197 @@
     left: 126px;
     bottom: -11px;
 }
+.upcoming{
+    width: 80%;
+    height: 875px;
+    /* border: 2px solid red; */
+    margin: auto;
+    position: relative;
+    bottom: 970px;
+}
+.events{
+    display: flex;
+    justify-content: space-between;
+}
+.events h2{
+    font-family: sans-serif;
+    color: #242565;
+    font-size: 30px;
+}
+.week span{
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    left: 25px;
+}
+.week button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: #242565;
+    border: none;
+
+}
+.pub{
+    width: 100%;
+    height: 678px;
+    margin: 60px 0;
+
+    
+}
+
+.wonder{
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    margin: 20px;
+}
+.wonder img{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.case{
+    display: flex;
+}
+.apr{
+ 
+    width: 50px;
+    height: 131px;
+  
+    text-align: center;
+    padding: 10px 0;
+}
+.girls{
+    width: 225px;
+   
+    line-height: 20px;
+
+}
+.three{
+    color: #3D37F1;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.num{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tour{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 14px 0;
+}
+.well{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: gray;
+}
+.div-wond{
+    display: flex;
+    margin-left: -11px;
+}
+.load{
+    margin-left: 430px;
+    position: relative;
+    bottom: 40px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: #3D37F1;
+    border: 2px solid #3D37F1;
+    font-weight: bold;
+    
+}
+.join{
+    width: 100%;
+    height: 200px;
+    background-color: #EEE1FF;
+   position: relative;
+   bottom: 950px;
+}
+.join h3{
+    text-align: center;
+    color: #242565;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+}
+.join p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: #6A6A6A;
+    font-size: 15px;
+}
+.lots{
+    width: 80%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 860px;
+    
+}
+.lots img{
+width: 150px;
+height: 50px;
+}
+.blog{
+    width: 80%;
+    height: 500px;
+
+    margin: auto;
+    position: relative;
+    bottom: 784px;
+   
+}
+.blog h2{
+    color: #242565;
+    font-family: sans-serif;
+    text-align: center;
+}
+.lorem{
+    color: #6A6A6A;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.blog-div{
+    width: 262px;
+    height: auto;
+  
+}
+
+.blog-div img{
+    width: 260px;
+    height: 145px;
+
+    border-radius: 20px;
+}
+.blog-div p{
+    color: #242565;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 15px;
+}
+.blog-div span{
+    color: #C4C4C4;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.cont{
+  
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
