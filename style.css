@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  background: linear-gradient(to left, pink,rgba(20, 0, 198, 0.769));
+  background: linear-gradient(to left, pink,rgba(20, 0, 198, 0.568));
   position: fixed;
   z-index: 3;
 
