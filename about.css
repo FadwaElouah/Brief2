@@ -117,4 +117,38 @@
     background-color: transparent;
     margin-left: 20px;
   }
+  /* ============================= */
+  .sect{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    margin: -70% auto;
+    font-family: sans-serif;
+  }
+  .sect div{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+  }
+  .sect img{
+    width: 500px;
+    margin: 0 20px ;
+  }
+  h2{
+    padding: 30px 0;
+    color: #258161;
+    font-size: 30px;
+  }
+  .sect p{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .sect button{
+    padding: 10px 30px;
+    background-color: #D627DC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 10px;
+  }
 
