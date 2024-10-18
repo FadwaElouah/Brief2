@@ -62,7 +62,7 @@ body {
   justify-content: space-between;
   padding-top: 20px;
   background: linear-gradient(to left, pink,rgba(29, 20, 110, 0.568));
-  position: fixed;
+  /* position: fixed; */
   z-index: 3;
 
 }
@@ -75,6 +75,8 @@ body {
   padding: 10px 40px;
   border: 1px solid white;
   border-radius: 30px;
+  
+  
 }
 .icon {
   font-size: 21px;
@@ -452,3 +454,4 @@ div .copy {
 .one img {
   margin-right: 10px;
 }
+
